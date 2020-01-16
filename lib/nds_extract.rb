@@ -15,7 +15,7 @@ def directors_totals(nds)
     director = nds[cntr1][:name]
     sum_of_wwg = 0
     cntr2 = 0 
-    while cntr2 < nds[cntr1][:movies][cntr2].length do
+    while cntr2 < nds[cntr1][:movies].length do
       sum_of_wwg = sum_of_wwg + nds[cntr1][:movies][cntr2][:worldwide_gross]
       cntr2 += 1
     end 
