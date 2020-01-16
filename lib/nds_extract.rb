@@ -20,7 +20,6 @@ def directors_totals(nds)
       cntr2 += 1
     end 
     result.store(director, sum_of_wwg)
-    pp result
     cntr1 += 1 
   end
   # Be sure to return the result at the end!
